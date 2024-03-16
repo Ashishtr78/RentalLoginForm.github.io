@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+     }
+     
+     .main{
+        display:flex;
+        flex-direction: row;
+         gap: 12vh;
+         justify-content: center;
+     }
+     .Login{
+             background-color: rgba(239, 31, 31, 0.626);
+           width: 27vw;
+           color: w;
+           height: 100vh;
+           display: flex;
+           /* justify-content: center; */
+           align-items: center;
+          flex-direction: column;
+           contain: content;
+     }
+      .mlogin{
+        position: relative;
+          top: 14vh;
+       }
+      .loginp{
+        position: relative;
+        top: 25vh;
+     }
+     span{
+  color: white;
+}
+.nav1{
+    position: relative;
+    top: 66vh;
+}
+.imgs{
+  width: 2vw;
+ left: -2vw;
+  position: relative;
+bottom: -5vh;
+height: 4vh;
+}
+
+
+     .box{
+
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 13vh;
+     }
+     .label{
+        position: relative;
+    top: -4vh;
+    font-size: 22px;
+     }
+     .massage{
+        position: relative;
+         top: 7vh;
+     }
+     input{
+        outline: none;
+    border: 0;
+    border-bottom: 2px solid;
+    width: 42vw;
+}
+button{
+    background-color: yellow;
+    height: 37px;
+    position: relative;
+    top: 10vh;
+}
+     
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="heade">
+        <div class="heade1">
+   
+       
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+                <li>login</li>
+            </ul>
+       
+   
+</div>
+</div>
+</nav>
+    <div class="main">
+    <div class="Login">
+         <h1 class="mlogin">Login</h1>
+        <p class="loginp">Get access to your order<br>wishlist and recomendation</p>
+        <div class="nav1">
+            <img  class="imgs" src="icon.png">
+            <p>RENTAL<span>   HOUSEHOLD</span></p>
+          </div>
+    </div>
+    <div class="box">
+        <label  class="label" for="mobile number">Enter mobile number</label>
+        <input type="tel" id="mobilenumber" name="mobilenumber" />
+        <p class="massage">by continue you agree with RENTAL HOUSEHOLD <a>termof use</a>and <a>condition</a> </p>
+        <button >request otp</button> 
+    </div>
+   </div>
+</body>
+</html>
